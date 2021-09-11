@@ -26,7 +26,7 @@
   
       console.log(promise)
       
-      window.location.href="./index.html";
+      window.location.href="chat.html";
       } catch(error) {
         alert(error)
       }
@@ -43,7 +43,7 @@
 
     console.log(result)
     
-    window.location.href="./index.html";
+    window.location.href="chat.html";
     } catch(error) {
       alert(error)
     }
