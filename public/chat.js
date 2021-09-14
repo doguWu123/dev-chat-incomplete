@@ -37,7 +37,6 @@ window.onload = function() {
       document.body.append(title_container)
     }
     create_join_form(){
-      // YOU MUST HAVE (PARENT = THIS). OR NOT. I'M NOT YOUR BOSS!😂
       var parent = this;
 
       var join_container = document.createElement('div')
