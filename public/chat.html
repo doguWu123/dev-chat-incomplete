@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Chat</title>
-    <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet'/>
-    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'/>
-    <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'/>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
 
-    <link rel="stylesheet" href="chat.css"/>
-    
-  <script type="text/javascript" src="chat.js"></script>
-  <body></body>
+    <!-- <div id="LoginScreen">
+      <button id="login">Login with Google</button>
+    </div>
+
+    <div id="dashboard">
+      <div id="userDetails"></div>
+      <button id="logout">Logout</button>
+    </div> -->
+
+    <div id="chat">
+          
+          <div id="chat">
+            <!-- messages will display here -->
+            <ul id="messages"></ul>
+      
+            <!-- form to send message -->
+            <form id="message-form">
+              <input id="message-input" type="text" />
+              <button id="message-btn" type="submit">Send</button>
+            </form>
+          </div>
+      
+          <!-- scripts -->
+          <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+          <script src="chat.js"></script>
+       
+      </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script> -->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <!-- <script src="login.js"></script> -->
+  </body>
 </html>
